@@ -7,3 +7,4 @@ RUN tar xfv ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar
 RUN rm -f ethminer-0.19.0-alpha.0-cuda-9-linux-x86_64.tar
 RUN chmod +x bin/ethminer
 ENTRYPOINT [ "bin/ethminer" ]
+CMD [ "-U" ]
